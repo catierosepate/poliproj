@@ -1,0 +1,56 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+.navbar{
+  margin:0;
+  border:0;
+}
+
+
+/*not working....fix vv*/
+
+
+.navbar-brand.navbar1 .navbar-brand{
+  color:#046792;
+}
+
+.navbar-default .navbar-brand{
+  color:white;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+
+
+#navbarcolor{
+ background-color:#16759f;
+ margin:0;
+}
+
+#ballotbox{
+  max-height:20em;
+}
+
+.thumbnail:hover{
+  background-color:#a8bcd5;
+}
+
+#bluebacking{
+  background-color:#a8bcd5;
+}
+
+#banner{
+  text-align:center;
+}
