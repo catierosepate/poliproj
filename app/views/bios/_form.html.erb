@@ -1,0 +1,27 @@
+<%= form_for(@bio) do |f| %>
+  <% if @bio.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bio.errors.count, "error") %> prohibited this bio from being saved:</h2>
+
+      <ul>
+      <% @bio.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<div>
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+</div>
+
+<div>
+  <%= f.label :candidate_id %>
+  <%= f.text_field :candidate_id %>
+</div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

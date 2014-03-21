@@ -1,4 +1,10 @@
 Poliproj::Application.routes.draw do
+  resources :bios
+
+  resources :goals
+
+  resources :candidates
+
   get "/login" => "pages#login"
   get "/session/create" => 'pages#create'
   get "/politiquiz" => "pages#politiquiz"

@@ -12,25 +12,45 @@
  *= require_tree .
  */
 
+.navbar-form{
+  margin:10em 0 0 10em;
+}
+
+#search{
+  background-image:url("http://i1059.photobucket.com/albums/t422/chloerules25/right.png");
+}
+
+.container.timer{
+  background-color:#e1e1e1;
+  margin:2em 0em 0em 0em;
+}
+
+body{
+  background-color:#e1e1e1;
+}
+
+.container-banner2{
+  background-color:#e1e1e1;
+  text-align:center;
+}
+  
+.userlist{
+  background-color:#e1e1e1;
+  text-align:center;
+}
+
 .navbar{
   margin:0;
   border:0;
 }
 
 
-/*not working....fix vv*/
-
-
-.navbar-brand.navbar1 .navbar-brand{
-  color:#046792;
-}
-
 .navbar-default .navbar-brand{
-  color:white;
+  color:black;
 }
 
 .navbar-default .navbar-nav>li>a{
-  color:white;
+  color:black;
 }
 
 
